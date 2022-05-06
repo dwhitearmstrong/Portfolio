@@ -40,7 +40,7 @@ a{
 
 header{
     min-height: 100vh;
-    color: var(var(--color-white));
+    color: var(--color-white);
     overflow: hidden;
 }
 
@@ -80,7 +80,6 @@ section{
 
 .active{
     display: block;
-    animation: scaleAnim 1s ease-in-out;
     @keyframes scaleAnim{
         0%{
             transform: translateY(-100%) scaleY(0);
@@ -90,6 +89,7 @@ section{
         }
         
     }
+    animation: scaleAnim 1s ease-in-out;
 }
 
 .controls{

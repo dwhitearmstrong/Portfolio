@@ -42,7 +42,7 @@ a {
 
 header {
   min-height: 100vh;
-  color: var(var(--color-white));
+  color: var(--color-white);
   overflow: hidden;
 }
 
