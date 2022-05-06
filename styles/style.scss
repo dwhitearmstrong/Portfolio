@@ -29,7 +29,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
     color: var(--color-white);
-    transition: all .4s ease-in-out;
+    transition: var(--transition-1);
 }
 a{
     display: inline-block;
@@ -435,7 +435,6 @@ section{
             background-color: var(--color-secondary);
             transform: translateX(0);
         }
-        
     }
 }
 
